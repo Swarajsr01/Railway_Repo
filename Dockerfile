@@ -10,4 +10,5 @@ USER odoo
 
 EXPOSE 8069
 
+ENTRYPOINT []
 CMD ["python3", "/usr/bin/odoo"]
