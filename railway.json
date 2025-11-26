@@ -4,6 +4,6 @@
     "builder": "DOCKERFILE"
   },
   "deploy": {
-    "startCommand": "sleep 30 && python3 /usr/bin/odoo --db_host=$PGHOST --db_port=$PGPORT --db_user=$PGUSER --db_password=$PGPASSWORD --database=postgres --http-interface=0.0.0.0 --http-port=8069 --proxy-mode"
+    "startCommand": "sleep 30 && python3 /usr/bin/odoo --db_host=$PGHOST --db_port=$PGPORT --db_user=$PGUSER --db_password=$PGPASSWORD --database=$PGDATABASE --http-interface=0.0.0.0 --http-port=8069 --proxy-mode"
   }
 }
